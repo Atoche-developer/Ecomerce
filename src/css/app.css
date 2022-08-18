@@ -1,5 +1,6 @@
 :root {
 	--bs-blue: #037BC0;
+	--bs-green: #8CBC00;
 }
 
 html {
@@ -34,6 +35,10 @@ h3 {
 
 .text-primary {
 	color: var(--bs-blue) !important;
+}
+
+.btn-success {
+	background-color: var(--bs-green) !important;
 }
 
 .bg-primary {
