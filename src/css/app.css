@@ -35,6 +35,25 @@ h3 {
 	color: var(--bs-blue) !important;
 }
 
+.hero {
+	height: 25rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.notavif .notwebp .hero {
+	background-image: url('../img/principal.jpg');
+}
+
+.webp .hero {
+	background-image: url('../img/principal.webp');
+}
+
+.avif .hero {
+	background-image: url('../img/principal.avif');
+}
+
 @media screen and (min-width:768px) {
 	h1 {
 		font-size: 5rem;
@@ -46,5 +65,10 @@ h3 {
 
 	h3 {
 		font-size: 3rem;
+	}
+
+	.hero {
+		height: 55rem;
+
 	}
 }
