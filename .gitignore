@@ -3,7 +3,6 @@
 
 ### Node ###
 
-build/
 src/img
 src/js
 src/css/bootstrap.min.css
