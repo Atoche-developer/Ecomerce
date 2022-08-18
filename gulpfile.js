@@ -35,7 +35,7 @@ const css = (done) => {
 
 const cssbuild = (done) => {
     src('./build/css/*.css')
-        .pipe(purgecss({ content: ['index.html'] }))
+        .pipe(purgecss({ content: ['index.html', 'blog.html', 'contacto.html', 'galeria.html', 'nosotros.html', 'tienda.htmlgit'] }))
         .pipe(dest('./build/css'))
     done()
 };
