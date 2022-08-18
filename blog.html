@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="La mejor pagina para comprar muebles">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Ecommerce - Blog</title>
+	<!-- *FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700;900&display=swap"
+		rel="stylesheet">
+	<!-- *CSS -->
+	<link rel="stylesheet" href="./build/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./build/css/app.css">
+</head>
+
+<body>
+
+	<header class="p-5">
+		<h1 class="text-center fw-bold">
+			Tienda
+			<span class="text-primary">Muebles</span>
+		</h1>
+	</header>
+
+	<nav class="navbar navbar-expand-lg navbar-light border-top py-4">
+		<div class="container-xl">
+			<a class="navbar-brand text-primary text-uppercese fs-3 fw-bold d-lg-none" href="#">
+				Tienda Muebles
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="container-fluid navbar-nav align-items-center justify-content-lg-between">
+					<a class="nav-link text-primary" aria-current="page" href="./index.html">Inicio</a>
+					<a class="nav-link text-primary" href="./nosotros.html">Nosotros</a>
+					<a class="nav-link text-primary" href="./tienda.html">Tienda</a>
+					<a class="nav-link text-primary" href="./blog.html">Blog</a>
+					<a class="nav-link text-primary" href="./galeria.html">Galería</a>
+					<a class="nav-link text-primary" href="./contacto.html">Contacto</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<section class="container-xl py-5">
+		<h2 class="text-center pt-5">Blog</h2>
+
+		<div class="row mt-5">
+			<main class="col-md-8">
+				<article>
+					<h3 class="my-5">Guia de Colores</h3>
+					<picture>
+						<source srcset="./build/img/nosotros.avif" type="image/avif">
+						<source srcset="./build/img/nosotros.webp" type="image/webp">
+						<img class="img-fluid" src="./build/img/nosotros.jpg" alt="Imagen Nosotros"
+							title="Imagen Nosotros">
+					</picture>
+					<div class="py-3 d-md-flex justify-content-md-between">
+						<p class="fw-light">
+							Fecha :
+							<span class="fw-bold text-primary">22 de octubre de 2022</span>
+						</p>
+						<p class="fw-light">
+							Escrito por :
+							<span class="fw-bold text-primary">Tienda Muebles</span>
+						</p>
+					</div>
+					<div>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quibusdam, recusandae
+							porro et laborum eius illum placeat ad quas tenetur ex facilis molestias aspernatur maiores
+							vitae. Laborum vel nobis dolor.
+						</p>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quibusdam, recusandae
+							porro et laborum eius illum placeat ad quas tenetur ex facilis molestias aspernatur maiores
+							vitae. Laborum vel nobis dolor.
+						</p>
+					</div>
+					<a class="btn btn-success px-5 btn-leer py-2 d-block fs-3 fw-bold d-md-inline-block" href="#">
+						Leer mas
+					</a>
+				</article>
+				<hr class="my-5">
+				<article>
+					<h3 class="my-5">Guia de Colores</h3>
+					<picture>
+						<source srcset="./build/img/nosotros.avif" type="image/avif">
+						<source srcset="./build/img/nosotros.webp" type="image/webp">
+						<img class="img-fluid" src="./build/img/nosotros.jpg" alt="Imagen Nosotros"
+							title="Imagen Nosotros">
+					</picture>
+					<div class="py-3 d-md-flex justify-content-md-between">
+						<p class="fw-light">
+							Fecha :
+							<span class="fw-bold text-primary">22 de octubre de 2022</span>
+						</p>
+						<p class="fw-light">
+							Escrito por :
+							<span class="fw-bold text-primary">Tienda Muebles</span>
+						</p>
+					</div>
+					<div>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quibusdam, recusandae
+							porro et laborum eius illum placeat ad quas tenetur ex facilis molestias aspernatur maiores
+							vitae. Laborum vel nobis dolor.
+						</p>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quibusdam, recusandae
+							porro et laborum eius illum placeat ad quas tenetur ex facilis molestias aspernatur maiores
+							vitae. Laborum vel nobis dolor.
+						</p>
+					</div>
+					<a class="btn btn-success px-5 btn-leer py-2 d-block fs-3 fw-bold d-md-inline-block" href="#">
+						Leer mas
+					</a>
+				</article>
+			</main>
+
+			<aside class="col-md-4">
+				<h3 class="my-5">Otras entradas de Blog</h3>
+				<ul class="mt-5">
+					<li> <a class="text-dark text-decoration-none" href="#">Guía de Colores</a></li>
+					<li> <a class="text-dark text-decoration-none" href="#">Nuevos Modelos</a></li>
+					<li> <a class="text-dark text-decoration-none" href="#">Guía para diseño de interiores</a></li>
+				</ul>
+			</aside>
+		</div>
+
+	</section>
+
+	<footer class="container-fluid border-top pt-5">
+		<div class="row">
+			<div class="col-md-4 text-center mb-5">
+				<h3 class="mb-4">categorias</h3>
+				<nav class="d-flex flex-column gap-3">
+					<a class="text-decoration-none text-dark" href="#">Cocina</a>
+					<a class="text-decoration-none text-dark" href="#">Oficina</a>
+					<a class="text-decoration-none text-dark" href="#">Jardin</a>
+					<a class="text-decoration-none text-dark" href="#">Cocher</a>
+					<a class="text-decoration-none text-dark" href="#">Dormitorios</a>
+				</nav>
+			</div>
+			<div class="col-md-4 text-center mb-5">
+				<h3 class="mb-4">Sobre Nosotros</h3>
+				<nav class="d-flex flex-column gap-3">
+					<a class="text-decoration-none text-dark" href="#">Nuestra Historia</a>
+					<a class="text-decoration-none text-dark" href="#">Misíon, Visíon y Valores</a>
+					<a class="text-decoration-none text-dark" href="#">Jardin</a>
+					<a class="text-decoration-none text-dark" href="#">Carreras</a>
+					<a class="text-decoration-none text-dark" href="#">Pilitica y privacidad</a>
+					<a class="text-decoration-none text-dark" href="#">Terminos y Servicio</a>
+				</nav>
+			</div>
+			<div class="col-md-4 text-center mb-5">
+				<h3 class="mb-4">Soporte</h3>
+				<nav class="d-flex flex-column gap-3">
+					<a class="text-decoration-none text-dark" href="#">Preguntas Frecuentes</a>
+					<a class="text-decoration-none text-dark" href="#">Ayuda en Linea</a>
+					<a class="text-decoration-none text-dark" href="#">Confianza y Seguridad</a>
+				</nav>
+			</div>
+		</div>
+
+		<p class="text-center pb-1 fw-bold">
+			Todos los derechos reservado Tienda
+			<span class="text-primary">Muebles</span> &copy;
+		</p>
+	</footer>
+
+	<script src="./build/js/bootstrap.bundle.min.js"></script>
+	<script src="./build/js/index.js"></script>
+</body>
+
+</html>

@@ -80,6 +80,9 @@ h3 {
 	transform: scale(1.1);
 }
 
+.btn-leer {
+	border-color: var(--bs-green) !important;
+}
 
 @media screen and (min-width:768px) {
 	h1 {
